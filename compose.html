@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN""http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Compose Email</title>
+		<link rel="stylesheet" type="text/css" href="homepage.css"/>
+		<script src="prototype.js" type="text/javascript"></script>
+		<script src="index.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<div id="area">
+			<button onclick="homePage()">Home</button>
+			<hr>
+			<h2>Compose Email:</h2>
+			<label>UserName:</label></br>
+			<input type="text" id="username" name="username" value="" size="100"></br>
+			<label>Recipients:</label></br>
+			<input type="text" id="recipients" name="reciever" value="" size="100"></br>
+			<label>Subject:</label></br>
+			<input type="text" id="subject" name="subject" value="" size="100"></br></br>
+			<label>Body:</label></br>
+			<textarea id="body" rows="20" cols="101">
+			</textarea>
+			<br>
+			<button onclick="msgSend()">Send</button>
+			<hr>
+			<button onclick="Logout()">Log out</button>
+		</div>
+	</body>
+</html>

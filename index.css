@@ -1,0 +1,47 @@
+body{
+	background: url("cheapomail.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+.login{
+    width: 320px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    border-top: 5px solid blue;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+	font-family: cursive;
+}
+
+.login input{
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.login button{
+    width: 100%;
+    height: 40px;
+    background: blue;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+body{
+	background: url("cheapomail.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: cursive;
+}
+
+button{
+    height: 40px;
+    background: blue;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+h2{
+	color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label{
+	font-size: 20px;
+	color: white;
+}
+
+div#lmessages{
+	font-size: 30px;
+	color: white;
+}
+
+div#users{
+	font-size:20px;
+	color:white;
+	float: right;
+}
